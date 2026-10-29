@@ -1,0 +1,112 @@
+{
+  "synthetic": true,
+  "input_rows": 20,
+  "included_rows": 16,
+  "excluded_rows": 4,
+  "issues": [
+    {
+      "line": 17,
+      "severity": "error",
+      "message": "Missing value; row excluded."
+    },
+    {
+      "line": 18,
+      "severity": "error",
+      "message": "Value must be a finite number; row excluded."
+    },
+    {
+      "line": 19,
+      "severity": "error",
+      "message": "Repeated reading_id READ-DUP; all rows with this ID excluded. Use a unique reading_id for every reading; sample_id may repeat across parameters or technical replicates."
+    },
+    {
+      "line": 20,
+      "severity": "error",
+      "message": "Repeated reading_id READ-DUP; all rows with this ID excluded. Use a unique reading_id for every reading; sample_id may repeat across parameters or technical replicates."
+    },
+    {
+      "line": null,
+      "severity": "warning",
+      "message": "Multiple unit labels for Moisture: %, g/g. Kept separate; no conversion assumed."
+    }
+  ],
+  "summaries": [
+    {
+      "group": "Control",
+      "parameter": "Moisture",
+      "unit": "%",
+      "n": 3,
+      "mean": 4.2,
+      "median": 4.2,
+      "sample_sd": 0.10000000000000009,
+      "minimum": 4.1,
+      "maximum": 4.3
+    },
+    {
+      "group": "Control",
+      "parameter": "Moisture",
+      "unit": "g/g",
+      "n": 1,
+      "mean": 0.042,
+      "median": 0.042,
+      "sample_sd": null,
+      "minimum": 0.042,
+      "maximum": 0.042
+    },
+    {
+      "group": "Control",
+      "parameter": "pH",
+      "unit": "pH",
+      "n": 2,
+      "mean": 5.45,
+      "median": 5.45,
+      "sample_sd": 0.0707106781186545,
+      "minimum": 5.4,
+      "maximum": 5.5
+    },
+    {
+      "group": "Trial A",
+      "parameter": "Moisture",
+      "unit": "%",
+      "n": 3,
+      "mean": 4.2,
+      "median": 4.2,
+      "sample_sd": 0.20000000000000018,
+      "minimum": 4.0,
+      "maximum": 4.4
+    },
+    {
+      "group": "Trial A",
+      "parameter": "pH",
+      "unit": "pH",
+      "n": 2,
+      "mean": 5.35,
+      "median": 5.35,
+      "sample_sd": 0.07071067811865513,
+      "minimum": 5.3,
+      "maximum": 5.4
+    },
+    {
+      "group": "Trial B",
+      "parameter": "Moisture",
+      "unit": "%",
+      "n": 3,
+      "mean": 4.3,
+      "median": 4.2,
+      "sample_sd": 0.26457513110645897,
+      "minimum": 4.1,
+      "maximum": 4.6
+    },
+    {
+      "group": "Trial B",
+      "parameter": "pH",
+      "unit": "pH",
+      "n": 2,
+      "mean": 5.300000000000001,
+      "median": 5.300000000000001,
+      "sample_sd": 0.14142135623730964,
+      "minimum": 5.2,
+      "maximum": 5.4
+    }
+  ]
+}
