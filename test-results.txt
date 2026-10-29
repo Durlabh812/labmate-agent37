@@ -1,0 +1,18 @@
+test_bom (test_labmate.Tests) ... ok
+test_duplicates (test_labmate.Tests) ... ok
+test_empty (test_labmate.Tests) ... ok
+test_escape (test_labmate.Tests) ... ok
+test_extra_cells (test_labmate.Tests) ... ok
+test_missing (test_labmate.Tests) ... ok
+test_nonfinite (test_labmate.Tests) ... ok
+test_schema (test_labmate.Tests) ... ok
+test_shared_sample (test_labmate.Tests) ... ok
+test_single (test_labmate.Tests) ... ok
+test_synthetic (test_labmate.Tests) ... ok
+test_units (test_labmate.Tests) ... ok
+test_valid (test_labmate.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+OK
