@@ -1,0 +1,27 @@
+[
+  {
+    "line": 17,
+    "severity": "error",
+    "message": "Missing value; row excluded."
+  },
+  {
+    "line": 18,
+    "severity": "error",
+    "message": "Value must be a finite number; row excluded."
+  },
+  {
+    "line": 19,
+    "severity": "error",
+    "message": "Repeated reading_id READ-DUP; all rows with this ID excluded. Use a unique reading_id for every reading; sample_id may repeat across parameters or technical replicates."
+  },
+  {
+    "line": 20,
+    "severity": "error",
+    "message": "Repeated reading_id READ-DUP; all rows with this ID excluded. Use a unique reading_id for every reading; sample_id may repeat across parameters or technical replicates."
+  },
+  {
+    "line": null,
+    "severity": "warning",
+    "message": "Multiple unit labels for Moisture: %, g/g. Kept separate; no conversion assumed."
+  }
+]
