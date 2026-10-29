@@ -1,6 +1,6 @@
 # LabMate - Experimental Data-to-Report Agent
 
-Private working prototype for review. A genuine Agent37 run was completed on 29 October 2026 with the synthetic sample. No publication or challenge submission has been completed. Python 3.10+; no third-party packages or model/API calls required for local execution.
+Working prototype. A genuine Agent37 run was completed on 29 October 2026 with the synthetic sample. No challenge submission has been completed. Python 3.10+; no third-party packages or model/API calls required for local execution.
 
 ## Run
 
